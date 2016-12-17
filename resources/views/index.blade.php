@@ -71,47 +71,42 @@
 			</a>
 		</section>
 		<section id="teams" class="gray">
-			<div class="container pad-bot-50">
+			<div class="container pad-bot-50" style="width:800px;">
 				<div class="heading">
 					<div>Teams</div>
 					<h1>List of Teams</h1>
 					<div class="divider"><span></span></div>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					<p>These are the list of teams for the inaugral season of EPL.</p>
 				</div>
 				<div class="row">
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<div class="service-item fadeInDown">
 							<div class="circle circle-l"><i class="fa fa-css3 fa-4x"></i></div>
 							<h3>DYNAMOS FC</h3>
-							<p class="font-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elits</p>
 						</div>
 					</div>
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<div class="service-item fadeInUp">
 							<div class="circle circle-l"><i class="fa fa-pencil fa-4x"></i></div>
 							<h3>FLYING COLOURS</h3>
-							<p class="font-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elits</p>
 						</div>
 					</div>
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<div class="service-item fadeInDown">
 							<div class="circle circle-l"><i class="fa fa-camera fa-4x"></i></div>
 							<h3>RACCA ROVERS</h3>
-							<p class="font-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elits</p>
 						</div>
 					</div>
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<div class="service-item fadeInUp">
 							<div class="circle circle-l"><i class="fa fa-gear fa-4x"></i></div>
 							<h3>ROCK CHAMPIONS</h3>
-							<p class="font-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elits</p>
 						</div>
 					</div>
-					<div class="col-sm-2">
+					<div class="col-sm-3" style="width:800px;">
 						<div class="service-item fadeInUp">
-							<div class="circle circle-l"><i class="fa fa-rss-square fa-4x"></i></div>
+							<div class="circle circle-l"><i class="fa fa-ellipsis-h fa-4x"></i></div>
 							<h3>STYLE BRIGADE</h3>
-							<p class="font-m">Lorem ipsum dolor sit amet, consectetuer adipiscing elits</p>
 						</div>
 					</div>
 				</div>
@@ -121,10 +116,32 @@
 			<div class="container">
 				<div class="heading">
 					<div>Our references</div>
-					<h1>What we done so far</h1>
+					<h1>Recent Match</h1>
 					<div class="divider"><span></span></div>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.</p>
+					<p><b>DYNAMOS FC</b> and <b>STYLE BRIGADE</b> took on each other to book a place in the finals and it was <b>STYLE BRIGADE</b> who came out on top in a thrilling encounter defeating <b>DYNAMOS FC</b> one goal to nil.</p>
 				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="service-item fadeInDown">
+							<div class="circle circle-l"><i class="fa fa-css3 fa-4x"></i></div>
+								<h3>DYNAMOS FC</h3>
+								<h1 align="center">0</h1>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="service-item fadeInUp">
+							<div class="circle circle-l"><h1 align="center">V/S</h1></div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="service-item fadeInUp">
+							<div class="circle circle-l"><i class="fa fa-rss-square fa-4x"></i></div>
+							<h3>STYLE BRIGADE</h3>
+							<h1 align="center">1</h1>
+						</div>
+					</div>
+				</div>
+				
 				<div class="centered-pills">
 					<ul class="nav nav-pills">
 						<li class="filter" data-filter="all">
@@ -154,9 +171,9 @@
 						<a href="ajax/project-1.html">
 							<img src="img/portfolio/placeholder.png" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Moderno</h4>
+								<h4>Style Brigade</h4>
 								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<p class="font-m">EPL</p>
 							</div>
 						</a>
 					</li>
@@ -164,9 +181,9 @@
 						<a href="ajax/project-1.html">
 							<img src="img/portfolio/placeholder-1.png" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>App Screen Showcase</h4>
+								<h4>Recca Rovers</h4>
 								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<p class="font-m">EPL</p>
 							</div>
 						</a>
 					</li>
@@ -174,9 +191,9 @@
 						<a href="ajax/project-1.html">
 							<img src="img/portfolio/placeholder-2.png" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Molly</h4>
+								<h4>Flying Colors</h4>
 								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<p class="font-m">EPL</p>
 							</div>
 						</a>
 					</li>
@@ -184,7 +201,7 @@
 						<a href="ajax/project-1.html">
 							<img src="img/portfolio/placeholder.png" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Workspace Elements</h4>
+								<h4>Dynamos FC</h4>
 								<div class="divider"><span></span></div>
 								<p class="font-m">AI / PSD</p>
 							</div>
@@ -194,79 +211,9 @@
 						<a href="ajax/project-1.html">
 							<img src="img/portfolio/placeholder-1.png" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Vintage Logo Insignias</h4>
+								<h4>Rock Champions</h4>
 								<div class="divider"><span></span></div>
-								<p class="font-m">AI / ESP</p>
-							</div>
-						</a>
-					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item g-design">
-						<a href="ajax/project-1.html">
-							<img src="img/portfolio/placeholder-2.png" class="img-responsive" alt="">
-							<div class="mask">
-								<h4>Retro Vetor Badges</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">AI</p>
-							</div>
-						</a>
-					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item photography">
-						<a href="ajax/project-1.html">
-							<img src="img/portfolio/placeholder.png" class="img-responsive" alt="">
-							<div class="mask">
-								<h4>Mentum</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
-							</div>
-						</a>
-					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item illustraion">
-						<a href="ajax/project-1.html">
-							<img src="img/portfolio/placeholder-2.png" class="img-responsive" alt="">
-							<div class="mask">
-								<h4>Flat Browser Mockup</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">AI / PSD</p>
-							</div>
-						</a>
-					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item web-design">
-						<a href="ajax/project-1.html">
-							<img src="img/portfolio/placeholder.png" class="img-responsive" alt="">
-							<div class="mask">
-								<h4>Flying Business Cards</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
-							</div>
-						</a>
-					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item g-design">
-						<a href="ajax/project-1.html">
-							<img src="img/portfolio/placeholder-1.png" class="img-responsive" alt="">
-							<div class="mask">
-								<h4>Tri Fold Brochure</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
-							</div>
-						</a>
-					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item photography">
-						<a href="ajax/project-1.html">
-							<img src="img/portfolio/placeholder-2.png" class="img-responsive" alt="">
-							<div class="mask">
-								<h4>iPhone 6 Mockups</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">AI / PSD</p>
-							</div>
-						</a>
-					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item illustraion">
-						<a href="ajax/project-1.html">
-							<img src="img/portfolio/placeholder.png" class="img-responsive" alt="">
-							<div class="mask">
-								<h4>Large Poster Mockup</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<p class="font-m">EPL</p>
 							</div>
 						</a>
 					</li>
@@ -460,7 +407,7 @@
 					<div class="divider">
 						<span></span>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					<p>List of sponsors who supports this great endeavour.</p>
 				</div>
 				<div class="row">
 					<ul class="client-slider clearfix" id="clint-slider">
@@ -518,7 +465,7 @@
 					<div class="divider">
 						<span></span>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					<p>Contact us on any of the below addresses for more.</p>
 				</div>
 				<div class="row">
 					<div class="col-md-4 adress-element ">
@@ -543,7 +490,7 @@
 					<div class="container">
 						<div class="heading">
 							<h1 class="light-font">Send us a message</h1>
-							<p class="light-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et viverra ipsum.</p>
+							<p class="light-font">Let us know how you find the page and your valuable comments on how to improve it.</p>
 						</div>
 						<form class="form-horizontal">
 							<div class="form-group">
@@ -574,16 +521,16 @@
 			<div class="container">
 				<ul class="social-list">
 					<li class="facebook">
-						<a href="http://goo.gl/RqhEjP"><i class="fa fa-facebook"></i></a>
+						<a href="http://goo.gl/RqhEjP"><i class="fa fa-facebook fa-2x"></i></a>
 					</li>
 					<li class="twitter">
-						<a href="http://goo.gl/hUfpSB"><i class="fa fa-twitter"></i></a>
+						<a href="http://goo.gl/hUfpSB"><i class="fa fa-twitter fa-2x"></i></a>
 					</li>
 					<li class="dribbble">
-						<a href="http://goo.gl/k9zAy5">	<i class="fa fa-dribbble"></i></a>
+						<a href="http://goo.gl/k9zAy5">	<i class="fa fa-dribbble fa-2x"></i></a>
 					</li>
 					<li class="youtube">
-						<a href="#"><i class="fa fa-youtube"></i></a>
+						<a href="#"><i class="fa fa-youtube fa-2x"></i></a>
 					</li>
 				</ul>
 				<a href="#home" class="square-l goup" style="position: relative">
