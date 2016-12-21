@@ -5,11 +5,13 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
-                <div class="panel-body">
-                    You are logged in!
-                </div>
+                @if (Auth::guest())
+                <div class="panel-heading">Kindly Login!</div>
+                @else
+                    <div class="panel-heading">Dashboard</div>
+                    <div class="panel-body"><a href="/createTeam">Add new Team</a>
+                    </div>
+                @endif
             </div>
         </div>
     </div>

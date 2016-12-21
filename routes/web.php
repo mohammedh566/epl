@@ -12,9 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('home');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/createTeam', 'TeamsController@create');
+
+Route::post('/createTeam', 'TeamsController@store');
+
+Route::get('/teams', 'TeamsController@index');
