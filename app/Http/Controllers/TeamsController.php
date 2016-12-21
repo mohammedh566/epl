@@ -68,7 +68,8 @@ class TeamsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $team = team::find($id)->firstOrFail();
+        return view('teamEdit', compact('team'));
     }
 
     /**
@@ -80,7 +81,12 @@ class TeamsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $team=Team::find($id)->firstOrFail();
+        $team->tname=$request->get('teamName');
+        $team->owner=$request->get('owner');
+        $team->manager=$request->get('manager');
+        $team->save();
+        return redirect(action('TeamsController@edit', $team->id))->with('status', 'The team '.$id.' has been updated!');
     }
 
     /**
@@ -91,6 +97,8 @@ class TeamsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $team = Team::find($id)->firstOrFail();
+        $team->delete();
+        return redirect('/teams')->with('status','The team' .$id.' has been deleted!');
     }
 }

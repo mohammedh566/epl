@@ -26,3 +26,9 @@ Route::post('/createTeam', 'TeamsController@store');
 Route::get('/teams', 'TeamsController@index');
 
 Route::get('/team/{id?}', 'TeamsController@show');
+
+Route::get('/ticket/{id?}/edit','TeamsController@edit');
+
+Route::post('/ticket/{id}/edit','TeamsController@update');
+
+Route::post('/ticket/{id?}/delete','TeamsController@destroy');

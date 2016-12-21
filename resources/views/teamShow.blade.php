@@ -9,9 +9,15 @@
                     <p> Owner: {!! $team->owner  !!}</p>
                     <p> Manager: {!! $team->manager  !!}</p>
                 </div>
-                <a href="#" class="btn btn-info">Edit</a>
-                <a href="#" class="btn btn-danger">Delete</a>
-            </div>
+                <a href="{!! action('TeamsController@edit', $team->id) !!}" class="btn btn-info">Edit</a>
+                <form method="post" action="{!! action('TeamsController@destroy', $team->id) !!}" class="pull-left">
+                    <input type="hidden" name="_token" value="{!! csrf_token() !!}">
+                    <div>
+                        <button type="submit" class="btn btn-warning">Delete</button>
+                    </div>
+                </form>
+                <div class="clearfix"></div>
+             </div>
     </div>
 
 @endsection

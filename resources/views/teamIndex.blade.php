@@ -6,6 +6,11 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h2> Teams </h2>
+                    @if (session('status'))
+                        <div class="alert alert-success">
+                            {{ session('status') }}
+                        </div>
+                    @endif
                 </div>
                 @if ($teams->isEmpty())
                     <p> No teams registered.</p>
