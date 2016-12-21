@@ -11,6 +11,8 @@
                     <div class="panel-heading">Dashboard</div>
                     <div class="panel-body"><a href="/createTeam">Add new Team</a>
                     </div>
+                    <div class="panel-body"><a href="{!! action('TeamsController@index') !!}">List of teams registered</a>
+                    </div>
                 @endif
             </div>
         </div>

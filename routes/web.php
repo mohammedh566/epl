@@ -24,3 +24,5 @@ Route::get('/createTeam', 'TeamsController@create');
 Route::post('/createTeam', 'TeamsController@store');
 
 Route::get('/teams', 'TeamsController@index');
+
+Route::get('/team/{id?}', 'TeamsController@show');

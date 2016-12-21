@@ -23,7 +23,9 @@
                             @foreach($teams as $team)
                                 <tr>
                                     <td>{!! $team->id !!} </td>
-                                    <td>{!! $team->tname !!}</td>
+                                    <td>
+                                        <a href="{!! action('TeamsController@show', $team->id) !!}">{!! $team->tname !!} </a>
+                                    </td>
                                     <td>{!! $team->owner !!}</td>
                                     <td>{!! $team->manager !!}</td>
                                 </tr>
