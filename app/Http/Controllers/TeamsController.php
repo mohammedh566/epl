@@ -37,15 +37,22 @@ class TeamsController extends Controller
      */
     public function store(TeamFormRequest $request)
     {
-        $team = new Team(array(
+
+    
+     $file = $request->file('image');
+     $contents = $file->openFile()->fread($file->getSize());
+     $imageName = $request->file('image')->getClientOriginalName().'.' .$request->file('image')->getClientOriginalExtension();
+     $team = new Team(array(
         'tname' => $request->get('teamName'),
         'owner' => $request->get('owner'),
-        'manager' => $request->get('manager')
+        'manager' => $request->get('manager'),
+        'logo' => $contents
     ));
-
+    var_dump($team)
     $team->save();
-    return redirect('/createTeam')->with('status', 'Your ticket has been created! Its unique id is:');
-        return $request->all();
+    $request->file('image')->move(base_path() . '/public/images/catalog/', $imageName);
+    return redirect('/createTeam')->with('status', 'Your team has been created! Its unique id is:');
+    return $request->all();
     }
 
     /**

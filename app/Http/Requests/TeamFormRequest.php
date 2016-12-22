@@ -27,6 +27,7 @@ class TeamFormRequest extends FormRequest
             'teamName' =>'required|min:3',
             'owner' => 'required|min:3',
             'manager' => 'required|min:3',
+            'image' => 'required|mimes:jpeg,png,jpg,gif,svg',
          ];
     }
 }

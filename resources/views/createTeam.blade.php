@@ -4,7 +4,7 @@
 @section('content')
     <div class="container col-md-8 col-md-offset-2">
         <div class="well well bs-component">
-            <form class="form-horizontal" method="post">
+            <form class="form-horizontal" method="post" enctype="multipart/form-data">
                 @foreach ($errors->all() as $error)
                     <p class="alert alert-danger">{{ $error }}</p>
                 @endforeach
@@ -34,9 +34,20 @@
                             <input type="text" class="form-control" id="manager" placeholder="Manager" name="manager">
                         </div>
                     </div>
-                    
-
-                    <div class="form-group">
+                    {!! Form::open( array(
+                                        'route' => 'upload', 
+                                        'class' => 'form-group', 
+                                        'novalidate' => 'novalidate', 
+                                            'files' => true)) !!}
+                        <div class="form-group">
+                            <div class="col-lg-2 control-label">
+                                {!! Form::label('Upload Logo',null) !!}
+                            </div>
+                                {!! Form::file('image', ['class' => 'col-lg-4 btn btn-success']) !!}
+                           
+                        </div>
+                    {!! Form::close() !!}
+                  <div class="form-group">
                         <div class="col-lg-10 col-lg-offset-2">
                             <button type="reset" class="btn btn-info">Clear all</button>
                             <a href="/home" class="btn btn-danger">Cancel</a>

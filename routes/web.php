@@ -32,3 +32,5 @@ Route::get('/ticket/{id?}/edit','TeamsController@edit');
 Route::post('/ticket/{id}/edit','TeamsController@update');
 
 Route::post('/ticket/{id?}/delete','TeamsController@destroy');
+
+Route::post('/createTeam', array('as' => 'upload', 'uses' => 'TeamsController@create'));
